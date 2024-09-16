@@ -9,10 +9,10 @@ app = FastAPI()
 
 def get_db_connection():
     cnx = mysql.connector.connect(
-        host='192.168.20.97',
-        user='sa',
-        password='sa',
-        database='village_gate_system'
+        host='185.31.41.45',
+        user='vgs',
+        password='ddtfkkindex',
+        database='vgs_in'
     )
     return cnx
 
